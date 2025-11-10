@@ -1,31 +1,33 @@
 <div align="center">
   <h1><b>Sublink Worker</b></h1>
   <h5><i>Best Practice for Serverless Self-Deployed Subscription Conversion Tool</i></h5>
-  
-  <a href="https://trendshift.io/repositories/12291" target="_blank">
+
+<a href="https://trendshift.io/repositories/12291" target="\_blank">
     <img src="https://trendshift.io/api/badge/repositories/12291" alt="7Sageer%2Fsublink-worker | Trendshift" width="250" height="55"/>
   </a>
-  
-  <!-- <p>
-    <a href="https://sublink-worker.sageer.me">https://sublink-worker.sageer.me</a>
-  </p> -->
-  <br>
 
-  <p>
+<!-- <p>
+    <a href="https://sublink-worker.sageer.me">https://sublink-worker.sageer.me</a>
+
+<br>
+
+<p>
     <a href="https://dash.cloudflare.com/?to=/:account/workers-and-pages/create">
       <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare Workers"/>
     </a>
   </p>
-  
-  <p><a href="/docs/README_CN.md">中文文档</a></p>
+
+<p><a href="/docs/README\_CN.md">中文文档</a></p>
 </div>
 
-## 🚀 Quick Start
+## 🚀 Quick Start1
 
 ### Quick Deployment
-- Fork this project, click the `Deploy to Cloudflare` button above
-- Select your repository in the `Import Repository` section (you need to link your GitHub account)
-- Change the `Deploy Command` as follows, then select `Save and Deploy`
+
+* Fork this project, click the `Deploy to Cloudflare` button above
+* Select your repository in the `Import Repository` section (you need to link your GitHub account)
+* Change the `Deploy Command` as follows, then select `Save and Deploy`
+
 ``` bash
 npm run deploy
 ```
@@ -33,46 +35,51 @@ npm run deploy
 ## ✨ Features
 
 ### Supported Protocols
-- ShadowSocks
-- VMess
-- VLESS
-- Hysteria2
-- Trojan
-- TUIC
+
+* ShadowSocks
+* VMess
+* VLESS
+* Hysteria2
+* Trojan
+* TUIC
 
 ### Core Features
-- Support for importing Base64 http/https subscription links and various protocol sharing URLs
-- Pure JavaScript + Cloudflare Worker implementation, one-click deployment, ready to use
-- Support for fixed/random short link generation (based on KV)
-- Light/Dark theme toggle
-- Flexible API, supporting script operations
-- Support for Chinese, English, and Persian languages
+
+* Support for importing Base64 http/https subscription links and various protocol sharing URLs
+* Pure JavaScript + Cloudflare Worker implementation, one-click deployment, ready to use
+* Support for fixed/random short link generation (based on KV)
+* Light/Dark theme toggle
+* Flexible API, supporting script operations
+* Support for Chinese, English, and Persian languages
 
 ### Client Support
-- Sing-Box
-- Clash
-- Xray/V2Ray
+
+* Sing-Box
+* Clash
+* Xray/V2Ray
 
 ### Web Interface Features
-- User-friendly operation interface
-- Various predefined rule sets
-- Customizable policy groups for geo-site, geo-ip, ip-cidr, and domain-suffix
+
+* User-friendly operation interface
+* Various predefined rule sets
+* Customizable policy groups for geo-site, geo-ip, ip-cidr, and domain-suffix
 
 ## 📖 API Documentation
 
 For detailed API documentation, please refer to [APIDoc.md](/docs/APIDoc.md)
 
 ### Main Endpoints
-- `/singbox` - Generate Sing-Box configuration
-- `/clash` - Generate Clash configuration
-- `/xray` - Generate Xray configuration
-- `/shorten` - Generate short links
+
+* `/singbox` - Generate Sing-Box configuration
+* `/clash` - Generate Clash configuration
+* `/xray` - Generate Xray configuration
+* `/shorten` - Generate short links
 
 ## 📝 Recent Updates
 
 ### 2025-11-08
 
-- feat(config): Added support for proxy configuration grouped by country, updated related translations
+* feat(config): Added support for proxy configuration grouped by country, updated related translations
 
 ## 🔧 Project Structure
 
@@ -113,12 +120,12 @@ This project is for learning and exchange purposes only. Please do not use it fo
 <table border="0">
   <tr>
     <td>
-      <a href="https://yxvm.com/" target="_blank" title="YXVM">
+      <a href="https://yxvm.com/" target="\_blank" title="YXVM">
         <img src="https://image.779477.xyz/yxvm.png" alt="YXVM" height="60" hspace="20"/>
       </a>
     </td>
     <td>
-      <a href="https://github.com/NodeSeekDev/NodeSupport" target="_blank" title="NodeSupport">
+      <a href="https://github.com/NodeSeekDev/NodeSupport" target="\_blank" title="NodeSupport">
         <img src="https://image.779477.xyz/ns.png" alt="NodeSupport" height="60" hspace="20"/>
       </a>
     </td>
@@ -132,10 +139,11 @@ This project is for learning and exchange purposes only. Please do not use it fo
 
 Thanks to everyone who has starred this project! 🌟
 
-<a href="https://star-history.com/#7Sageer/sublink-worker&Date">
+<a href="https://star-history.com/#7Sageer/sublink-worker\&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=7Sageer/sublink-worker&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=7Sageer/sublink-worker&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=7Sageer/sublink-worker&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=7Sageer/sublink-worker\&type=Date\&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=7Sageer/sublink-worker\&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=7Sageer/sublink-worker\&type=Date" />
  </picture>
 </a>
+
